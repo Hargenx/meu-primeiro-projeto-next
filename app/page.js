@@ -1,3 +1,4 @@
+import { Span } from "next/dist/trace";
 import Image from "next/image";
 
 export default function Home() {
@@ -22,6 +23,8 @@ export default function Home() {
           </li>
           <li>Save and see your changes instantly.</li>
         </ol>
+        <h1>HAHAHAAHAHAHA</h1>
+        <div><p>Olha nois aqui!</p></div>
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
           <a
